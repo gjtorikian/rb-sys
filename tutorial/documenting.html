@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Setup - Ruby on Rust</title>
+        <title>Documenting - Ruby on Rust</title>
         <!-- Custom HTML head -->
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="The definitive guide for using Rust in Ruby">
@@ -75,7 +75,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../background-and-concepts.html"><strong aria-hidden="true">2.</strong> Background and Concepts</a></li><li class="chapter-item expanded affix "><li class="part-title">Tutorial</li><li class="chapter-item expanded "><a href="../tutorial/setup.html" class="active"><strong aria-hidden="true">3.</strong> Setup</a></li><li class="chapter-item expanded "><a href="../tutorial/hello-world.html"><strong aria-hidden="true">4.</strong> Hello World!</a></li><li class="chapter-item expanded "><a href="../tutorial/testing.html"><strong aria-hidden="true">5.</strong> Testing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tutorial/testing/debugging.html"><strong aria-hidden="true">5.1.</strong> Debugging</a></li></ol></li><li class="chapter-item expanded "><a href="../tutorial/publishing.html"><strong aria-hidden="true">6.</strong> Publishing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tutorial/publishing/cross-compilation.html"><strong aria-hidden="true">6.1.</strong> Cross-Compilation</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../introduction.html">Introduction</a></li><li class="chapter-item expanded affix "><a href="../getting-started.html">Getting Started</a></li><li class="chapter-item expanded affix "><a href="../background-and-concepts.html">Background and Concepts</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">User Guide</li><li class="chapter-item expanded "><a href="../tutorial.html"><strong aria-hidden="true">1.</strong> Tutorial</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../tutorial/testing/debugging.html"><strong aria-hidden="true">1.1.</strong> Debugging</a></li><li class="chapter-item expanded "><a href="../tutorial/publishing/cross-compilation.html"><strong aria-hidden="true">1.2.</strong> Cross-Compilation</a></li><li class="chapter-item expanded "><a href="../tutorial/documenting.html" class="active"><strong aria-hidden="true">1.3.</strong> Documenting</a></li></ol></li><li class="chapter-item expanded "><a href="../api-documentation.html"><strong aria-hidden="true">2.</strong> API Documentation</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -134,16 +134,20 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="setup"><a class="header" href="#setup">Setup</a></h1>
+                        <h1 id="documenting"><a class="header" href="#documenting">Documenting</a></h1>
+<p>Generating documentation for your Ruby project is easy with <a href="https://yardoc.org/">YARD</a>. Unfortunately, YARD doesn't
+support documenting Rust code. But don't worry! The <a href="https://github.com/oxidize-rb/yard-rustdoc"><code>yard-rustdoc</code></a> gem can generate documentation for
+your Rust code and include it in your YARD documentation.</p>
+<p>Check out the <a href="https://github.com/oxidize-rb/yard-rustdoc#usage">getting started guide</a> to learn how to use <code>yard-rustdoc</code>.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../background-and-concepts.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../tutorial/publishing/cross-compilation.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
-                            <a rel="next" href="../tutorial/hello-world.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../api-documentation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         <div style="clear: both"></div>
@@ -152,10 +156,10 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../background-and-concepts.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../tutorial/publishing/cross-compilation.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                    <a rel="next" href="../tutorial/hello-world.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../api-documentation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
