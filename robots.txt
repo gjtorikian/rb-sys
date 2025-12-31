@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Crawl-delay: 0
+Sitemap: https://oxidize-rb.org/sitemap.xml
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Applebot-Extended
+# Algolia-Crawler-Verif: 11F1BC0C8E02E922
